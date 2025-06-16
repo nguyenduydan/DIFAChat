@@ -1,7 +1,7 @@
 # DIFAChat
 
 Một ứng dụng **real-time chat** sử dụng WebSocket (SignalR), được xây dựng bằng ASP.NET Core (backend), React + Vite (frontend), và MySQL (PlanetScale hoặc local) làm hệ quản trị cơ sở dữ liệu.
-
+Commit git: [id-task]-[nội dung công việc đã làm]
 ---
 
 ## 📚 Nội dung
