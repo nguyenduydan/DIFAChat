@@ -1,12 +1,4 @@
-using DotNetEnv;
-
-
 var builder = WebApplication.CreateBuilder(args);
-// Load .env
-DotNetEnv.Env.Load();
-
-// Load các cấu hình từ biến môi trường
-builder.Configuration.AddEnvironmentVariables();
 
 // Add services to the container.
 
