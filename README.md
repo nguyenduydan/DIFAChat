@@ -2,6 +2,7 @@
 
 - Một ứng dụng **real-time chat** sử dụng WebSocket (SignalR), được xây dựng bằng ASP.NET Core (backend), React + Vite (frontend), và MySQL (PlanetScale hoặc local) làm hệ quản trị cơ sở dữ liệu.
 - Commit git: [id-task]-[nội dung công việc đã làm]
+
 ---
 
 ## 📚 Nội dung
@@ -30,12 +31,12 @@ DIFAChat là một ứng dụng trò chuyện nhóm và cá nhân **thời gian 
 ## ⚙️ Kiến trúc & cấu trúc thư mục
 
 ```plaintext
-CommunityChat/
+DIFAChat/
 ├── Backend/
-│   ├── CommunityChat.API/              # Web API + SignalR hub + Auth
-│   ├── CommunityChat.Core/             # Entity, DTO, Interface
-│   ├── CommunityChat.Application/      # Business logic, UseCase
-│   └── CommunityChat.Infrastructure/   # DBContext, Repositories, JWT
+│   ├── DIFAChat.API/              # Web API + SignalR hub + Auth
+│   ├── DIFAChat.Core/             # Entity, DTO, Interface
+│   ├── DIFAChat.Application/      # Business logic, UseCase
+│   └── DIFAChat.Infrastructure/   # DBContext, Repositories, JWT
 └── Frontend/
     ├── public/
     ├── src/
