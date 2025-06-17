@@ -2,6 +2,7 @@
 
 - Một ứng dụng **real-time chat** sử dụng WebSocket (SignalR), được xây dựng bằng ASP.NET Core (backend), React + Vite (frontend), và MySQL (PlanetScale hoặc local) làm hệ quản trị cơ sở dữ liệu.
 - Commit git: [id-task]-[nội dung công việc đã làm]
+
 ---
 
 ## 📚 Nội dung
@@ -11,7 +12,6 @@
 - [Kiến trúc & cấu trúc thư mục](#kiến-trúc--cấu-trúc-thư-mục)
 - [Cài đặt & chạy thử](#cài-đặt--chạy-thử)
 - [Kế hoạch mở rộng](#kế-hoạch-mở-rộng)
-- [Góp phần & License](#góp-phần--license)
 
 ---
 
@@ -30,12 +30,12 @@ DIFAChat là một ứng dụng trò chuyện nhóm và cá nhân **thời gian 
 ## ⚙️ Kiến trúc & cấu trúc thư mục
 
 ```plaintext
-CommunityChat/
+DIFAChat/
 ├── Backend/
-│   ├── CommunityChat.API/              # Web API + SignalR hub + Auth
-│   ├── CommunityChat.Core/             # Entity, DTO, Interface
-│   ├── CommunityChat.Application/      # Business logic, UseCase
-│   └── CommunityChat.Infrastructure/   # DBContext, Repositories, JWT
+│   ├── DIFAChat.API/              # Web API + SignalR hub + Auth
+│   ├── DIFAChat.Core/             # Entity, DTO, Interface
+│   ├── DIFAChat.Application/      # Business logic, UseCase
+│   └── DIFAChat.Infrastructure/   # DBContext, Repositories, JWT
 └── Frontend/
     ├── public/
     ├── src/
@@ -91,14 +91,6 @@ Mở trình duyệt tại `http://localhost:3000` để kiểm tra ứng dụng.
 - Thêm xác thực OAuth (Google, Facebook, GitHub)
 - Tối ưu hiệu suất realtime bằng Redis backplane
 - Phát triển ứng dụng mobile (React Native / Flutter)
-
----
-
-## 🤝 Góp phần & License
-
-- Mọi góp ý, pull requests đều hoan nghênh!
-- Vui lòng đọc các file `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md` (nếu có).
-- License: MIT
 
 ---
 
