@@ -12,7 +12,6 @@
 - [Kiến trúc & cấu trúc thư mục](#kiến-trúc--cấu-trúc-thư-mục)
 - [Cài đặt & chạy thử](#cài-đặt--chạy-thử)
 - [Kế hoạch mở rộng](#kế-hoạch-mở-rộng)
-- [Góp phần & License](#góp-phần--license)
 
 ---
 
@@ -92,14 +91,6 @@ Mở trình duyệt tại `http://localhost:3000` để kiểm tra ứng dụng.
 - Thêm xác thực OAuth (Google, Facebook, GitHub)
 - Tối ưu hiệu suất realtime bằng Redis backplane
 - Phát triển ứng dụng mobile (React Native / Flutter)
-
----
-
-## 🤝 Góp phần & License
-
-- Mọi góp ý, pull requests đều hoan nghênh!
-- Vui lòng đọc các file `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md` (nếu có).
-- License: MIT
 
 ---
 
