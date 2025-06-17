@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F274CBF-74E1-4326-AC3D-66441AD74DBD}|DIFAChat.API\\DIFAChat.API.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\difachat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F274CBF-74E1-4326-AC3D-66441AD74DBD}|DIFAChat.API\\DIFAChat.API.csproj|solutionrelative:difachat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.API\\Program.cs",
+              "RelativeDocumentMoniker": "DIFAChat.API\\Program.cs",
+              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.API\\Program.cs",
+              "RelativeToolTip": "DIFAChat.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:14:23.646Z",
+              "EditorCaption": ""
             }
           ]
         }

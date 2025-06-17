@@ -1,0 +1,12 @@
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\bin\Debug\net9.0\DIFAChat.Core.deps.json
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\bin\Debug\net9.0\DIFAChat.Core.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\bin\Debug\net9.0\DIFAChat.Core.pdb
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.AssemblyInfoInputs.cache
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.AssemblyInfo.cs
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.csproj.CoreCompileInputs.cache
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.sourcelink.json
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\refint\DIFAChat.Core.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\DIFAChat.Core.pdb
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Core\obj\Debug\net9.0\ref\DIFAChat.Core.dll
