@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|solutionrelative:api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|solutionrelative:api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EA38B83-8C0B-4F28-9780-07A52F404FFA}|DIFAChat.csproj|solutionrelative:api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F274CBF-74E1-4326-AC3D-66441AD74DBD}|DIFAChat.API\\DIFAChat.API.csproj|e:\\tutorials\\reactjs\\communitychat\\difachat\\backend\\difachat\\difachat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F274CBF-74E1-4326-AC3D-66441AD74DBD}|DIFAChat.API\\DIFAChat.API.csproj|solutionrelative:difachat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".env",
-              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\.env",
-              "RelativeDocumentMoniker": "API\\.env",
-              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\.env",
-              "RelativeToolTip": "API\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-17T08:12:24.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:09:14.034Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -76,28 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "API\\Hubs\\ChatHub.cs",
-              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "API\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.API\\Program.cs",
+              "RelativeDocumentMoniker": "DIFAChat.API\\Program.cs",
+              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.API\\Program.cs",
+              "RelativeToolTip": "DIFAChat.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:07:12.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
-              "ToolTip": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:04:26.801Z",
+              "WhenOpened": "2025-06-17T16:14:23.646Z",
               "EditorCaption": ""
             }
           ]

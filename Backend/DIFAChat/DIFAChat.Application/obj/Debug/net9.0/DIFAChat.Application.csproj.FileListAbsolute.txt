@@ -1,0 +1,16 @@
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\bin\Debug\net9.0\DIFAChat.Application.deps.json
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\bin\Debug\net9.0\DIFAChat.Application.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\bin\Debug\net9.0\DIFAChat.Application.pdb
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.AssemblyInfoInputs.cache
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.AssemblyInfo.cs
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.csproj.CoreCompileInputs.cache
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.sourcelink.json
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\refint\DIFAChat.Application.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.pdb
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\ref\DIFAChat.Application.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\bin\Debug\net9.0\DIFAChat.Core.dll
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\bin\Debug\net9.0\DIFAChat.Core.pdb
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.Application.csproj.AssemblyReference.cache
+E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Application\obj\Debug\net9.0\DIFAChat.9E6DB598.Up2Date

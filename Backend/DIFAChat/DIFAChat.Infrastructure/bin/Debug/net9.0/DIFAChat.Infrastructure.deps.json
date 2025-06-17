@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DIFAChat.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DIFAChat.Application": "1.0.0",
+          "DIFAChat.Core": "1.0.0"
+        },
+        "runtime": {
+          "DIFAChat.Infrastructure.dll": {}
+        }
+      },
+      "DIFAChat.Application/1.0.0": {
+        "dependencies": {
+          "DIFAChat.Core": "1.0.0"
+        },
+        "runtime": {
+          "DIFAChat.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DIFAChat.Core/1.0.0": {
+        "runtime": {
+          "DIFAChat.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DIFAChat.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DIFAChat.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DIFAChat.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

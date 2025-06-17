@@ -1,4 +1,4 @@
-@DIFAChat_HostAddress = http://localhost:5219
+@DIFAChat_HostAddress = http://localhost:5155
 
 GET {{DIFAChat_HostAddress}}/weatherforecast/
 Accept: application/json
