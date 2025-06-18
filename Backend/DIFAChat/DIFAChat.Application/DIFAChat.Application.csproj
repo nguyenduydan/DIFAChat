@@ -49,5 +49,11 @@
     <Compile Include="UseCases\Class1.cs" />
     <Compile Include="Validators\Class1.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DIFAChat.Core\DIFAChat.Core.csproj">
+      <Project>{33b32152-010f-43cc-987e-173970c477d5}</Project>
+      <Name>DIFAChat.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

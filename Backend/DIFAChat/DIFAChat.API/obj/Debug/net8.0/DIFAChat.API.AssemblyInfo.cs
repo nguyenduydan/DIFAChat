@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIFAChat.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+345bb0ae9a8ff69515a9d24a4eb84acea93498b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d070c564596c1c3f82d64a65627eff200dfb5651")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIFAChat.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIFAChat.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

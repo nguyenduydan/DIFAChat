@@ -31,14 +31,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Application\\DIFAChat.Application.csproj": {
-                "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Application\\DIFAChat.Application.csproj"
-              },
-              "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Infrastructure\\DIFAChat.Infrastructure.csproj": {
-                "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Infrastructure\\DIFAChat.Infrastructure.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -57,44 +50,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.1, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Google": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.AspNetCore.Authentication.OAuth": {
-              "target": "Package",
-              "version": "[2.3.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -121,62 +76,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Application\\DIFAChat.Application.csproj": {
-      "restore": {
-        "projectUniqueName": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Application\\DIFAChat.Application.csproj",
-        "projectName": "DIFAChat.Application",
-        "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Application\\DIFAChat.Application.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj": {
-                "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj": {
-      "restore": {
-        "projectUniqueName": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj",
-        "projectName": "DIFAChat.Core",
-        "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Infrastructure\\DIFAChat.Infrastructure.csproj": {
-      "restore": {
-        "projectUniqueName": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Infrastructure\\DIFAChat.Infrastructure.csproj",
-        "projectName": "DIFAChat.Infrastructure",
-        "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Infrastructure\\DIFAChat.Infrastructure.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj": {
-                "projectPath": "E:\\Tutorials\\ReactJS\\CommunityChat\\DIFAChat\\Backend\\DIFAChat\\DIFAChat.Core\\DIFAChat.Core.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }
