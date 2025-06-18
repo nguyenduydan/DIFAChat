@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIFAChat.Infrastructure
+namespace DIFAChat.Infrastructure.Migrations
 {
-    public class Class1
+    internal class Class1
     {
     }
 }
