@@ -137,5 +137,5 @@ dist
 
 #project
 .vs/
-*/bin/
-*/obj/
+bin/
+obj/
