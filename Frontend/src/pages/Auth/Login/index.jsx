@@ -1,0 +1,130 @@
+import { useState } from "react";
+
+const Login = () => {
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+    remember: false,
+  });
+
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    // Giả lập xử lý đăng nhập
+    setTimeout(() => {
+      setIsLoading(false);
+      alert("Đăng nhập thành công!");
+    }, 1500);
+  };
+
+  return (
+    <div className="h-screen w-full bg-cover bg-center flex items-center justify-center">
+      <div className="backdrop-blur-md bg-black/10 p-10 rounded-2xl shadow-lg w-80 md:w-96 transition-shadow hover:shadow-2xl hover:shadow-white">
+        <form onSubmit={handleSubmit} className="flex flex-col items-center">
+          <h2 className="text-4xl text-white font-medium">Sign in</h2>
+          <p className="text-sm text-white mt-3">
+            Welcome back! Please sign in to continue
+          </p>
+
+          <button
+            type="button"
+            className="w-full mt-8 bg-gray-500/10 flex items-center justify-center h-12 rounded-full"
+          >
+            <img
+              src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/login/googleLogo.svg"
+              alt="googleLogo"
+            />
+          </button>
+
+          <div className="flex items-center gap-4 w-full my-5">
+            <div className="w-full h-px bg-gray-300/90" />
+            <p className="text-sm text-gray-500/90 whitespace-nowrap">
+              or sign in with email
+            </p>
+            <div className="w-full h-px bg-gray-300/90" />
+          </div>
+
+          {/* Email */}
+          <div className="flex items-center w-full border-2 border-gray-300/60 h-12 rounded-full pl-6 gap-2 bg-transparent">
+            {/* SVG... */}
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              value={formData.email}
+              onChange={handleChange}
+              className="bg-transparent text-white placeholder-white-300 outline-none text-sm w-full h-full"
+            />
+          </div>
+
+          {/* Password */}
+          <div className="flex items-center w-full mt-6 border-2 border-gray-300/60 h-12 rounded-full pl-6 gap-2 bg-transparent">
+            {/* SVG... */}
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+              value={formData.password}
+              onChange={handleChange}
+              className="bg-transparent text-white placeholder-white-300 outline-none text-sm w-full h-full"
+            />
+          </div>
+
+          {/* Remember + Forgot */}
+          <div className="w-full flex items-center justify-between mt-8 text-white">
+            <div className="flex items-center gap-2">
+              <input
+                className="h-4 w-4"
+                type="checkbox"
+                id="remember"
+                name="remember"
+                checked={formData.remember}
+                onChange={handleChange}
+              />
+              <label className="text-sm" htmlFor="remember">
+                Remember me
+              </label>
+            </div>
+            <a className="text-sm underline cursor-pointer" href="#">
+              Forgot password?
+            </a>
+          </div>
+
+          {/* Submit */}
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="mt-8 w-full h-11 rounded-full text-white bg-indigo-500 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {isLoading ? "Đang đăng nhập..." : "Login"}
+          </button>
+
+          <p className="text-white text-sm mt-4">
+            Don’t have an account?{" "}
+            <a
+              className="text-indigo-600 hover:underline cursor-pointer"
+              href="#"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default Login;

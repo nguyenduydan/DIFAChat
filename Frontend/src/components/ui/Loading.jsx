@@ -2,7 +2,7 @@ import React from "react";
 
 export const Loading = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-gradient-to-br from-blue-100 to-white">
+    <div className="flex h-screen w-full items-center justify-center bg-transparent">
       <div className="flex flex-col items-center space-y-4">
         <div className="relative">
           <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent" />
