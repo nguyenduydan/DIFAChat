@@ -1,6 +1,0 @@
-@DIFAChat.API_HostAddress = http://localhost:5199
-
-GET {{DIFAChat.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
