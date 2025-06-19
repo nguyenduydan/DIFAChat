@@ -1,19 +1,49 @@
+using DIFAChat.API.Hubs;
 using dotenv.net;
+using Microsoft.OpenApi.Models;
 
-DotEnv.Load();
+DotEnv.Load(); // Load .env variables early
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// -------------------- Services Configuration --------------------
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger (only for Development)
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "DIFAChat API",
+        Version = "v1"
+    });
+});
+
+// SignalR for real-time communication
+builder.Services.AddSignalR();
+
+// CORS setup (adjust for production)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("DefaultCorsPolicy", policy =>
+    {
+        policy.WithOrigins("https://yourfrontend.com", "http://localhost:3000") // update with your real frontend domains
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
+
+// Add other services like authentication, database, etc. here
+// builder.Services.AddAuthentication(...);
+// builder.Services.AddDbContext<...>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// -------------------- Middleware Pipeline --------------------
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -22,8 +52,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Use CORS
+app.UseCors("DefaultCorsPolicy");
+
+// Add authentication/authorization if used
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<ChatHub>("/chathub");
 
 app.Run();
