@@ -58,56 +58,49 @@ Dưới đây là quy trình chuẩn hóa để triển khai tính năng tạo n
 
 🎯 Vai trò: Mô hình hóa bảng Users trong cơ sở dữ liệu.
 
-✅ `3. Repository Interface
-📁 Thư mục: DIFAChat.Core/Interfaces/`
-
-📝 File: IUserRepository.cs
-
-🎯 Vai trò: Định nghĩa các phương thức thao tác với dữ liệu người dùng.
-
-✅ `4. Repository Implementation
+✅ `3. Repository Implementation
 📁 Thư mục: DIFAChat.Infrastructure/Repositories/`
 
 📝 File: UserRepository.cs
 
 🎯 Vai trò: Thực thi các thao tác với cơ sở dữ liệu.
 
-✅ `5. UserValidator
+✅ `4. UserValidator
 📁 Thư mục: DIFAChat.Application/Validators/`
 
 📝 File: UserValidator.cs
 
 🎯 Vai trò: Xác thực dữ liệu đầu vào bằng FluentValidation.
 
-✅ `6. CreateUserUseCase
+✅ `5. CreateUserUseCase
 📁 Thư mục: DIFAChat.Application/UseCases/`
 
 📝 File: CreateUserUseCase.cs
 
 🎯 Vai trò: Xử lý nghiệp vụ: xác thực → kiểm tra email → hash mật khẩu → lưu user.
 
-✅ `7. MappingProfile
+✅ `6. MappingProfile
 📁 Thư mục: DIFAChat.Application/Mappings/`
 
 📝 File: MappingProfile.cs
 
 🎯 Vai trò: Cấu hình AutoMapper để ánh xạ từ CreateUserDto sang User.
 
-✅ `8. UsersController
+✅ `7. UsersController
 📁 Thư mục: DIFAChat.API/Controllers/`
 
 📝 File: UsersController.cs
 
 🎯 Vai trò: Tạo endpoint POST /api/users để tạo mới người dùng.
 
-✅ `9. Middleware Xử Lý Lỗi
+✅ `8. Middleware Xử Lý Lỗi
 📁 Thư mục: DIFAChat.API/Middlewares/`
 
 📝 File: ErrorHandlingMiddleware.cs
 
 🎯 Vai trò: Xử lý lỗi tập trung (như ValidationException, AppException) và trả JSON định dạng đẹp.
 
-✅ `10. Đăng Ký DI (Dependency Injection)
+✅ `9. Đăng Ký DI (Dependency Injection)
 📁 File: DIFAChat.Infrastructure/Configuration`
 
 📝 File: DependencyInjection.cs
