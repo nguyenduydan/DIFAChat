@@ -10,6 +10,7 @@ import AuthLayout from "@components/layout/AuthLayout/AuthLayout";
 // Lazy load components
 const Home = lazy(() => import("@pages/Home"));
 const Login = lazy(() => import("@pages/Auth/Login"));
+const Register = lazy(() => import("@pages/Auth/Register"));
 
 const AppRouter = () => {
   return (
@@ -29,6 +30,14 @@ const AppRouter = () => {
             element={
               <PublicRoute restricted={false}>
                 <LazyRoute component={Login} />
+              </PublicRoute>
+            }
+          />
+          <Route
+            path="register"
+            element={
+              <PublicRoute restricted={false}>
+                <LazyRoute component={Register} />
               </PublicRoute>
             }
           />
