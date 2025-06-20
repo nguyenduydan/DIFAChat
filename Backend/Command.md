@@ -1,7 +1,8 @@
-## 📦 Cài Đặt Các Package
+# 📦 Cài Đặt Các Package
 
-```bash
-🔧 Entity Framework Core
+## 🔧 Entity Framework Core
+
+```
 - Install-Package Microsoft.EntityFrameworkCore -Version 8.0.13
 - Install-Package Pomelo.EntityFrameworkCore.MySql -Version 8.0.13
 - Install-Package Microsoft.EntityFrameworkCore.Design -Version 8.0.13
