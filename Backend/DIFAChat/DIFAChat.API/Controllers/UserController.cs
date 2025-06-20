@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DIFAChat.API.Controllers
 {
@@ -7,15 +8,17 @@ namespace DIFAChat.API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        public UserController() 
+        private readonly DifaChatDbContext _db;
+        public UserController(DifaChatDbContext db ) 
         { 
+            _db = db;
         }
 
         [HttpGet]
         public async Task<IActionResult> ShowList()
         {
-
-            return Ok("Successed");
+            var users = await _db.Users.ToListAsync();
+            return Ok(users);
         }
     }
 }
