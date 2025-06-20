@@ -2,11 +2,16 @@
 
 namespace DIFAChat.API.Hubs
 {
-    public class ChatHub: Hub
+    public class ChatHub : Hub
     {
-        public async Task SendMessage (string user, string message)
+        public async Task JoinRoom(string roomId)
         {
-            await Clients.All.SendAsync (user, message);
+            await Groups.AddToGroupAsync(Context.ConnectionId, roomId);
+        }
+
+        public async Task LeaveRoom(string roomId)
+        {
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, roomId);
         }
     }
 }
