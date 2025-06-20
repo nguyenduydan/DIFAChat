@@ -107,8 +107,31 @@ Dưới đây là quy trình chuẩn hóa để triển khai tính năng tạo n
 🎯 Vai trò: Xử lý lỗi tập trung (như ValidationException, AppException) và trả JSON định dạng đẹp.
 
 ✅ `10. Đăng Ký DI (Dependency Injection)
-📁 File: DIFAChat.API/Program.cs`
+📁 File: DIFAChat.Infrastructure/Configuration`
 
-🔧 Vị trí: Trong phương thức ConfigureServices(...)
+📝 File: DependencyInjection.cs
 
-🎯 Vai trò: Đăng ký các dịch vụ: repository, use case, validator, AutoMapper,...
+🔧 Vị trí: Tạo một phương thức mở rộng `AddInfrastructureServices(this IServiceCollection services)`
+
+🎯 Vai trò: Đăng ký tất cả các dependency như:
+
+```
+Repository (IUserRepository, v.v.)
+
+UseCase (ICreateUserUseCase)
+
+Validator (FluentValidation)
+
+AutoMapper (MappingProfile)
+
+SignalR (nếu cần)
+
+Các Service khác (JWT, OAuth…)
+```
+
+✅ `Gọi lại trong ServiceConfiguration.cs`
+📁 File: DIFAChat.API/Extensions/ServiceConfiguration.cs
+
+🧩 Chèn thêm dòng sau trong builder.Services
+
+`builder.Services.AddInfrastructureServices(); `
