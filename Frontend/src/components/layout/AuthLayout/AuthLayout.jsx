@@ -16,7 +16,7 @@ const AuthLayout = () => {
       <div className="absolute inset-0 sm:hidden bg-[radial-gradient(circle_at_75%_75%,rgba(255,255,255,0.02),transparent)] pointer-events-none" />
 
       {/* Optional Cursor Effect */}
-      {/* <SplashCursor /> */}
+      <SplashCursor />
 
       {/* Header */}
       <Header />
