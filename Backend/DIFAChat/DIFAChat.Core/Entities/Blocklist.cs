@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class Blocklist
+public partial class blocklist
 {
     public string Id { get; set; } = null!;
 

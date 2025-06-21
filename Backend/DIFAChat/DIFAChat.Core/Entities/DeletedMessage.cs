@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class DeletedMessage
+public partial class deletedmessage
 {
     public string Id { get; set; } = null!;
 

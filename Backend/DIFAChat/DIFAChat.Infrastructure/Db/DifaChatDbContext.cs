@@ -11,43 +11,43 @@ public partial class DifaChatDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Access> Accesses { get; set; }
+    public virtual DbSet<access> accesses { get; set; }
 
-    public virtual DbSet<Activity> Activities { get; set; }
+    public virtual DbSet<activity> activities { get; set; }
 
-    public virtual DbSet<Attachment> Attachments { get; set; }
+    public virtual DbSet<attachment> attachments { get; set; }
 
-    public virtual DbSet<Blocklist> Blocklists { get; set; }
+    public virtual DbSet<blocklist> blocklists { get; set; }
 
-    public virtual DbSet<Contact> Contacts { get; set; }
+    public virtual DbSet<contact> contacts { get; set; }
 
-    public virtual DbSet<Conversation> Conversations { get; set; }
+    public virtual DbSet<conversation> conversations { get; set; }
 
-    public virtual DbSet<DeletedMessage> DeletedMessages { get; set; }
+    public virtual DbSet<deletedmessage> deletedmessages { get; set; }
 
-    public virtual DbSet<Device> Devices { get; set; }
+    public virtual DbSet<device> devices { get; set; }
 
-    public virtual DbSet<EmailConfiguration> EmailConfigurations { get; set; }
+    public virtual DbSet<emailconfiguration> emailconfigurations { get; set; }
 
-    public virtual DbSet<EmailTemplate> EmailTemplates { get; set; }
+    public virtual DbSet<emailtemplate> emailtemplates { get; set; }
 
-    public virtual DbSet<Invitation> Invitations { get; set; }
+    public virtual DbSet<invitation> invitations { get; set; }
 
-    public virtual DbSet<Message> Messages { get; set; }
+    public virtual DbSet<message> messages { get; set; }
 
-    public virtual DbSet<Participant> Participants { get; set; }
+    public virtual DbSet<participant> participants { get; set; }
 
-    public virtual DbSet<Report> Reports { get; set; }
+    public virtual DbSet<report> reports { get; set; }
 
-    public virtual DbSet<SystemConfiguration> SystemConfigurations { get; set; }
+    public virtual DbSet<systemconfiguration> systemconfigurations { get; set; }
 
-    public virtual DbSet<Token> Tokens { get; set; }
+    public virtual DbSet<token> tokens { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<user> users { get; set; }
 
-    public virtual DbSet<UserContact> UserContacts { get; set; }
+    public virtual DbSet<usercontact> usercontacts { get; set; }
 
-    public virtual DbSet<UserVerification> UserVerifications { get; set; }
+    public virtual DbSet<userverification> userverifications { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -55,12 +55,12 @@ public partial class DifaChatDbContext : DbContext
             .UseCollation("utf8mb4_0900_ai_ci")
             .HasCharSet("utf8mb4");
 
-        modelBuilder.Entity<Access>(entity =>
+        modelBuilder.Entity<access>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("Access")
+                .ToTable("access")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -81,7 +81,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Activity>(entity =>
+        modelBuilder.Entity<activity>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -105,7 +105,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasColumnType("datetime");
         });
 
-        modelBuilder.Entity<Attachment>(entity =>
+        modelBuilder.Entity<attachment>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -130,12 +130,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Blocklist>(entity =>
+        modelBuilder.Entity<blocklist>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("Blocklist")
+                .ToTable("blocklist")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -150,12 +150,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Contact>(entity =>
+        modelBuilder.Entity<contact>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("Contact")
+                .ToTable("contact")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -182,12 +182,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Conversation>(entity =>
+        modelBuilder.Entity<conversation>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("Conversation")
+                .ToTable("conversation")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -205,7 +205,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasColumnType("datetime");
         });
 
-        modelBuilder.Entity<DeletedMessage>(entity =>
+        modelBuilder.Entity<deletedmessage>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -226,7 +226,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Device>(entity =>
+        modelBuilder.Entity<device>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -250,12 +250,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<EmailConfiguration>(entity =>
+        modelBuilder.Entity<emailconfiguration>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("EmailConfiguration")
+                .ToTable("emailconfiguration")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -279,12 +279,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<EmailTemplate>(entity =>
+        modelBuilder.Entity<emailtemplate>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("EmailTemplate")
+                .ToTable("emailtemplate")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -308,7 +308,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Invitation>(entity =>
+        modelBuilder.Entity<invitation>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -326,7 +326,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Message>(entity =>
+        modelBuilder.Entity<message>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -352,7 +352,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Participant>(entity =>
+        modelBuilder.Entity<participant>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -376,7 +376,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Report>(entity =>
+        modelBuilder.Entity<report>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -400,12 +400,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<SystemConfiguration>(entity =>
+        modelBuilder.Entity<systemconfiguration>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("SystemConfiguration")
+                .ToTable("systemconfiguration")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -429,12 +429,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<Token>(entity =>
+        modelBuilder.Entity<token>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("Token")
+                .ToTable("token")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -465,7 +465,7 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<User>(entity =>
+        modelBuilder.Entity<user>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
@@ -528,12 +528,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<UserContact>(entity =>
+        modelBuilder.Entity<usercontact>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("UserContact")
+                .ToTable("usercontact")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);
@@ -554,12 +554,12 @@ public partial class DifaChatDbContext : DbContext
                 .HasDefaultValueSql("''");
         });
 
-        modelBuilder.Entity<UserVerification>(entity =>
+        modelBuilder.Entity<userverification>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
 
             entity
-                .ToTable("UserVerification")
+                .ToTable("userverification")
                 .UseCollation("utf8mb4_unicode_ci");
 
             entity.Property(e => e.Id).HasMaxLength(36);

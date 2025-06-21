@@ -17,7 +17,7 @@ namespace DIFAChat.API.Controllers
         [HttpGet]
         public async Task<IActionResult> ShowList()
         {
-            var users = await _db.Users.ToListAsync();
+            var users = await _db.users.ToListAsync();
             return Ok(users);
         }
     }
