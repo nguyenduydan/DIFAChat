@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class Device
+public partial class device
 {
     public string Id { get; set; } = null!;
 

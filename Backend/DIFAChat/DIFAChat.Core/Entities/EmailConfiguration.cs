@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class EmailConfiguration
+public partial class emailconfiguration
 {
     public string Id { get; set; } = null!;
 

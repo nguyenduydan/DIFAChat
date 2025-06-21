@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class SystemConfiguration
+public partial class systemconfiguration
 {
     public string Id { get; set; } = null!;
 

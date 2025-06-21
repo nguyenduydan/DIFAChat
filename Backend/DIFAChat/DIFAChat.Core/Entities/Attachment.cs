@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DIFAChat.API;
 
-public partial class Attachment
+public partial class attachment
 {
     public string Id { get; set; } = null!;
 
