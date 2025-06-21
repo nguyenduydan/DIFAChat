@@ -1,9 +1,0 @@
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\bin\Debug\DIFAChat.Infrastructure.dll
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\bin\Debug\DIFAChat.Infrastructure.pdb
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\obj\Debug\DIFAChat.Infrastructure.csproj.AssemblyReference.cache
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\obj\Debug\DIFAChat.Infrastructure.csproj.CoreCompileInputs.cache
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\obj\Debug\DIFAChat.Infrastructure.dll
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\obj\Debug\DIFAChat.Infrastructure.pdb
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\bin\Debug\DIFAChat.Core.dll
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\bin\Debug\DIFAChat.Core.pdb
-E:\Tutorials\ReactJS\CommunityChat\DIFAChat\Backend\DIFAChat\DIFAChat.Infrastructure\obj\Debug\DIFAChat.F39EFAE0.Up2Date

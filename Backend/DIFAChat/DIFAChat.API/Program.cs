@@ -1,29 +1,34 @@
+using DIFAChat.API;
+using DIFAChat.API.Extensions;
 using dotenv.net;
 
 DotEnv.Load();
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+if (builder.Environment.IsDevelopment())
+    builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+Console.WriteLine("🚀 Starting DIFAChat API...");
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    ServiceConfiguration.Configure(builder.Services, builder.Configuration, builder.Environment);
+
+    var app = builder.Build();
+
+    await StartupUtilities.TestDatabaseConnectionAsync(app.Services);
+
+    MiddlewareConfiguration.Configure(app);
+
+    StartupUtilities.PrintStartupInfo(app.Environment);
+
+    await app.RunAsync();
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+catch (Exception ex)
+{
+    Console.WriteLine($"❌ Startup failed: {ex.Message}");
+    Environment.Exit(1);
+}

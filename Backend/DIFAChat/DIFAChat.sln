@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.API", "DIFAChat.API\DIFAChat.API.csproj", "{A35C935A-F5CA-4FA6-BE71-485E3BEB45C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Core", "DIFAChat.Core\DIFAChat.Core.csproj", "{33B32152-010F-43CC-987E-173970C477D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Infrastructure", "DIFAChat.Infrastructure\DIFAChat.Infrastructure.csproj", "{A14B0520-314C-49E8-B0CD-D4F5F98F5A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Application", "DIFAChat.Application\DIFAChat.Application.csproj", "{B75A67DF-1395-4FC2-AE66-F0F20CCE0AF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Core", "DIFAChat.Core\DIFAChat.Core.csproj", "{F09BC21A-186D-41E3-8298-6AA0BB219F8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Infrastructure", "DIFAChat.Infrastructure\DIFAChat.Infrastructure.csproj", "{5D63DD81-7150-4A14-94AE-1C7EC7828E8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIFAChat.Application", "DIFAChat.Application\DIFAChat.Application.csproj", "{AA545C92-D270-45BF-9478-5DB8D689BA02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{A35C935A-F5CA-4FA6-BE71-485E3BEB45C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35C935A-F5CA-4FA6-BE71-485E3BEB45C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35C935A-F5CA-4FA6-BE71-485E3BEB45C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33B32152-010F-43CC-987E-173970C477D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33B32152-010F-43CC-987E-173970C477D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33B32152-010F-43CC-987E-173970C477D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33B32152-010F-43CC-987E-173970C477D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B75A67DF-1395-4FC2-AE66-F0F20CCE0AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B75A67DF-1395-4FC2-AE66-F0F20CCE0AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B75A67DF-1395-4FC2-AE66-F0F20CCE0AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B75A67DF-1395-4FC2-AE66-F0F20CCE0AF8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D63DD81-7150-4A14-94AE-1C7EC7828E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D63DD81-7150-4A14-94AE-1C7EC7828E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D63DD81-7150-4A14-94AE-1C7EC7828E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D63DD81-7150-4A14-94AE-1C7EC7828E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14B0520-314C-49E8-B0CD-D4F5F98F5A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14B0520-314C-49E8-B0CD-D4F5F98F5A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14B0520-314C-49E8-B0CD-D4F5F98F5A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14B0520-314C-49E8-B0CD-D4F5F98F5A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09BC21A-186D-41E3-8298-6AA0BB219F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09BC21A-186D-41E3-8298-6AA0BB219F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09BC21A-186D-41E3-8298-6AA0BB219F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09BC21A-186D-41E3-8298-6AA0BB219F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA545C92-D270-45BF-9478-5DB8D689BA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA545C92-D270-45BF-9478-5DB8D689BA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA545C92-D270-45BF-9478-5DB8D689BA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA545C92-D270-45BF-9478-5DB8D689BA02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
